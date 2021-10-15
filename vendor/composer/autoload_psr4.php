@@ -10,6 +10,7 @@ return array(
     'Yosymfony\\ResourceWatcher\\' => array($vendorDir . '/yosymfony/resource-watcher/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Test\\' => array($baseDir . '/tests'),
+    'Symfony\\Polyfill\\Php81\\' => array($vendorDir . '/symfony/polyfill-php81'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Symfony\\Polyfill\\Php73\\' => array($vendorDir . '/symfony/polyfill-php73'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
@@ -25,6 +26,8 @@ return array(
     'Spatie\\PhpUnitWatcher\\' => array($vendorDir . '/spatie/phpunit-watcher/src'),
     'React\\Stream\\' => array($vendorDir . '/react/stream/src'),
     'React\\EventLoop\\' => array($vendorDir . '/react/event-loop/src'),
+    'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),
+    'Ramsey\\Collection\\' => array($vendorDir . '/ramsey/collection/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src/Prophecy'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
@@ -34,5 +37,6 @@ return array(
     'Clue\\React\\Utf8\\' => array($vendorDir . '/clue/utf8-react/src'),
     'Clue\\React\\Term\\' => array($vendorDir . '/clue/term-react/src'),
     'Clue\\React\\Stdio\\' => array($vendorDir . '/clue/stdio-react/src'),
+    'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
     'App\\' => array($baseDir . '/src'),
 );
