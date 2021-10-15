@@ -6,9 +6,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Asc\\TestDouble\\": "src/"
+            "App\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    },
+
     "authors": [
         {
             "name": "messaouda",
